@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tahoma;
+  color: white;
+}
+
+cite {
+  font-size: 13px;
+}
+
+li {
+  margin: 0 15px;
+}
+table {
+  width: 100%;
+}
+
+td {
+  width: 33%;
+  padding: 7px;
+  vertical-align: top;
+}
+
+h3 {
+  margin:5px
+}
+
+table p {
+  margin: 0;
+  font-size: 13px;
+}
+
+body {
+  background-image: url('./media/big-sur-background.png');
+  background-position: center;
+  background-size: cover;
+}
+
+p {
+  margin: 20px;
+}
+
+a:hover {
+  color: rgb(169, 154, 254);
+}
+
+div.list_element {
+  width: 250px;
+  margin: 0 auto;
+  padding: 5px 10px;
+}
+
+div.list_element:hover {
+  background-color:rgb(67, 58, 112);
+  cursor: pointer;
+}
+
+div.homepage {
+  width: 100%;
+  overflow: scroll;
+}
+
+div.homepage div {
+  background-color:rgb(67, 58, 112);
+  padding: 10px 30px;
+  overflow: scroll;
+}
+
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 600px;
+  padding: 30px 0;
+  overflow: scroll;
+}
+
+.container div {
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.graduation {
+  text-align: right;
+}
+
+.selected {
+  background-color: black !important;
+}
+
+.source_code{
+  font-style: italic;
+  margin-top: 0;
+  padding: 0 auto;
+}
+
+div.homepage div.code_example {
+  background-color: white;
+  padding: 7px
+}
+
+code {
+  color: black;
+  font-size: 12px;
+}
+
+div.dropdown {
+  text-align: center;
+  margin-left: auto;
+  margin-right: 0;
+  background-color: rgb(67, 58, 112);
+  border-radius: 5px;
+  padding: 5px;
+  width: 75%;
+}
+
+div.dropdown:hover {
+  background-color: rgb(169, 154, 254);
+}
+
+#header {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 20px;
+  font-family: Arial;
+}
+
+#list_container {
+  width: 400px;
+  height: 100%;
+}
+
+#portrait {
+  background-position: center;
+  background-size: cover;
+  height: 325px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
